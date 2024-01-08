@@ -1,0 +1,12 @@
+.educationSection .info{
+    margin-top:8px;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    gap:15px;
+}
+.info .first{
+    min-width: 150px;
+}
+b{
+    font-weight: bolder;
+}

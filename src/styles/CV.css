@@ -1,0 +1,12 @@
+.CV{
+    user-select: none;
+    background-color: white;
+    width: 793.69px;
+    /* min-width:600px; */
+    height:1122.52px;
+    overflow:hidden;
+}
+
+.content{
+    padding:35px 55px;
+}

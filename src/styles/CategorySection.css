@@ -1,0 +1,38 @@
+.CategorySection{
+    background-color: white;
+    border-radius: 7px;
+}
+.CategorySection:not(.open){
+    
+    padding:0 10px;
+ }
+
+.CategorySection h4{
+    padding:10px 0;
+    margin:0;
+    font-size: 20px;
+    text-align: start;
+    cursor:pointer;
+}
+.hidden{
+    display:none;
+}
+div.buttons{
+    display:flex;
+    padding:10px;
+    justify-content: space-around;
+}
+.buttons button{
+    display: inline-block;
+    background-color: #eeea;
+    flex-basis:40%;
+    font-size:20px;
+    border-radius: 5px;
+    transition:200ms;
+}
+button.delete:hover{
+    background-color: #e77a;
+}
+button.save:hover{
+    background-color:#ddd;
+}
