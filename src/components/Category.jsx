@@ -33,7 +33,7 @@ function setCategoryValues(id,obj){
 // console.log("From App.js")
 // console.log("Category Created: "+JSON.stringify(categoryInputValues));
 function deleteSection(e) {
-    setChildren(children.filter((child) => child.title != e.target.title));
+    setChildren(children.filter((child) => child != e));
   }
 
 
